@@ -1,5 +1,11 @@
 # Workflows
 
+## [DynamoDS/actions-dashboard](https://github.com/DynamoDS/actions-dashboard)
+
+Workflow | Status
+---------|--------
+[build.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/actions-dashboard/actions/workflows/build.yml)
+
 ## [DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit)
 
 Workflow | Status

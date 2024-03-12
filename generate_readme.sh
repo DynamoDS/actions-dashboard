@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/bin/env bash
 
 # This script generates the README.md file.
 # it requires gh to be installed. https://cli.github.com/
@@ -6,12 +6,11 @@
 # Usage: ./generate_readme.sh
 
 org="DynamoDS"
-input_file="repos.txt"
 output_file="README.md"
 
-if ! command -v gh &> /dev/null; then
-  echo "❕gh is not installed.\nPlease install it first. https://cli.github.com/"
-  exit 1
+if ! which gh &> /dev/null; then
+    echo "❕gh is not installed.\nPlease install it first. https://cli.github.com/"
+    exit 1
 fi
 
 get_repos() {
@@ -24,10 +23,15 @@ get_repos() {
         --template '{{range .}}{{.nameWithOwner}}{{"\n"}}{{end}}'
 }
 
-parse_repo() {
-    local repo=$1
+echo "# Workflows" > ${output_file}
+echo "" >> ${output_file}
+
+for repo in $(get_repos $org); do
+    echo "\n🔍 Parsing repository: $repo"
     workflows=$(gh api /repos/$repo/contents/.github/workflows -q '.[] | select(.type == "file") | .name')
-    [[ $? -ne 0 ]] && continue
+    if [ $? -ne 0 ]; then
+        continue
+    fi
 
     echo "## [$repo](https://github.com/$repo)" >> ${output_file}
     echo "" >> ${output_file}
@@ -35,19 +39,11 @@ parse_repo() {
     echo "---------|--------" >> ${output_file}
     for workflow in $workflows; do
         echo "ℹ️  Parsing workflow: $workflow"
-        path="[$workflow](https://github.com/$repo/actions/workflows/$workflow)"
-        status="[![$workflow](https://github.com/$repo/actions/workflows/$workflow/badge.svg)](https://github.com/$repo/actions/workflows/$workflow)"
-        echo "$path | $status" >> ${output_file}
+        path="https://github.com/$repo/actions/workflows/$workflow"
+        badge="https://github.com/$repo/actions/workflows/$workflow/badge.svg"
+        echo "[$workflow]($path) | [![$workflow]($badge)]($path)" >> ${output_file}
     done
     echo "" >> ${output_file}
-}
-
-echo "# Workflows" > ${output_file}
-echo "" >> ${output_file}
-
-for repo in $(get_repos $org); do
-    echo "\n🔍 Parsing repository: $repo"
-    parse_repo $repo
 done
 
 echo "\n✅ Readme generated: $output_file"
