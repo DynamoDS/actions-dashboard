@@ -29,18 +29,22 @@ parse_repo() {
     workflows=$(gh api /repos/$repo/contents/.github/workflows -q '.[] | select(.type == "file") | .name')
     [[ $? -ne 0 ]] && continue
 
-    echo "## $(basename $repo)" >> ${output_file}
+    echo "## [$repo](https://github.com/$repo)" >> ${output_file}
+    echo "" >> ${output_file}
     echo "Workflow | Status" >> ${output_file}
-    echo "-------- | ------" >> ${output_file}
+    echo "---------|--------" >> ${output_file}
     for workflow in $workflows; do
         echo "ℹ️  Parsing workflow: $workflow"
         path="[$workflow](https://github.com/$repo/actions/workflows/$workflow)"
         status="[![$workflow](https://github.com/$repo/actions/workflows/$workflow/badge.svg)](https://github.com/$repo/actions/workflows/$workflow)"
         echo "$path | $status" >> ${output_file}
     done
+    echo "" >> ${output_file}
 }
 
 echo "# Workflows" > ${output_file}
+echo "" >> ${output_file}
+
 for repo in $(get_repos $org); do
     echo "\n🔍 Parsing repository: $repo"
     parse_repo $repo
