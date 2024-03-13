@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 # This script generates the README.md file.
 # it requires gh to be installed. https://cli.github.com/
@@ -9,16 +9,17 @@ org="DynamoDS"
 output_file="README.md"
 
 if ! which gh &> /dev/null; then
-    echo "❕gh is not installed.\nPlease install it first. https://cli.github.com/"
+    echo "❕gh is not installed."
+    echo "Please install it first. https://cli.github.com/"
     exit 1
 fi
 
-get_repos() {
+list_repos() {
     local org=$1
     gh repo list $1 \
-        --visibility public \
-        --no-archived \
         --limit 100 \
+        --no-archived \
+        --visibility public \
         --json nameWithOwner \
         --template '{{range .}}{{.nameWithOwner}}{{"\n"}}{{end}}'
 }
@@ -26,8 +27,11 @@ get_repos() {
 echo "# Workflows" > ${output_file}
 echo "" >> ${output_file}
 
-for repo in $(get_repos $org); do
-    echo "\n🔍 Parsing repository: $repo"
+echo "🔍 Getting all repositories"
+repos=$(list_repos $org)
+for repo in $repos; do
+    echo
+    echo "ℹ️  Parsing repository: $repo"
     workflows=$(gh api /repos/$repo/contents/.github/workflows -q '.[] | select(.type == "file") | .name')
     if [ $? -ne 0 ]; then
         continue
@@ -46,4 +50,5 @@ for repo in $(get_repos $org); do
     echo "" >> ${output_file}
 done
 
-echo "\n✅ Readme generated: $output_file"
+echo
+echo "✅ Readme generated: $output_file"
