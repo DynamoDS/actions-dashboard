@@ -4,14 +4,7 @@
 
 Workflow | Status
 ---------|--------
-[build.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/actions-dashboard/actions/workflows/build.yml)
-
-## [DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit)
-
-Workflow | Status
----------|--------
-[label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml) | [![label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml)
-[move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml) | [![move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml)
+[gh_pages.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/gh_pages.yml) | [![gh_pages.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/gh_pages.yml/badge.svg)](https://github.com/DynamoDS/actions-dashboard/actions/workflows/gh_pages.yml)
 
 ## [DynamoDS/Dynamo](https://github.com/DynamoDS/Dynamo)
 
@@ -32,6 +25,13 @@ Workflow | Status
 [issue_type_predicter.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/issue_type_predicter.yml) | [![issue_type_predicter.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/issue_type_predicter.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/issue_type_predicter.yml)
 [move_issue.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/move_issue.yml) | [![move_issue.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/move_issue.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/move_issue.yml)
 [ui_smoke_tests.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/ui_smoke_tests.yml) | [![ui_smoke_tests.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/ui_smoke_tests.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/ui_smoke_tests.yml)
+
+## [DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit)
+
+Workflow | Status
+---------|--------
+[label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml) | [![label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml)
+[move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml) | [![move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml)
 
 ## [DynamoDS/workflows](https://github.com/DynamoDS/workflows)
 
