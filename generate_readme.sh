@@ -22,7 +22,7 @@ list_repos() {
         --no-archived \
         --visibility public \
         --json nameWithOwner,url \
-        --template '{{range .}}{{.nameWithOwner}}{{","}}{{.url}}{{"\n"}}{{end}}'
+        --template '{{range .}}{{.nameWithOwner}}{{","}}{{.url}}{{"\n"}}{{end}}' | sort -f
 }
 
 echo "# Workflows" > $output_file
