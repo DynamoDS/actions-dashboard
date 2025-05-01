@@ -16,6 +16,7 @@ Workflow | Status
 Workflow | Status
 ---------|--------
 [gh_pages.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/gh_pages.yml) | [![gh_pages.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/gh_pages.yml/badge.svg)](https://github.com/DynamoDS/actions-dashboard/actions/workflows/gh_pages.yml)
+[update_readme.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/update_readme.yml) | [![update_readme.yml](https://github.com/DynamoDS/actions-dashboard/actions/workflows/update_readme.yml/badge.svg)](https://github.com/DynamoDS/actions-dashboard/actions/workflows/update_readme.yml)
 
 ## [DynamoDS/DSIronPython](https://github.com/DynamoDS/DSIronPython)
 
