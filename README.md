@@ -52,6 +52,7 @@ Workflow | Status
 [move_issue.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/move_issue.yml) | [![move_issue.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/move_issue.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/move_issue.yml)
 [pr_description_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_description_check.yml) | [![pr_description_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_description_check.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_description_check.yml)
 [pr_jira_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_jira_check.yml) | [![pr_jira_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_jira_check.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_jira_check.yml)
+[trigger_jenkins.yaml](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_jenkins.yaml) | [![trigger_jenkins.yaml](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_jenkins.yaml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_jenkins.yaml)
 
 ## [DynamoDS/DynamoHome](https://github.com/DynamoDS/DynamoHome)
 
@@ -59,6 +60,7 @@ Workflow | Status
 ---------|--------
 [build.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml)
 [npm-publish.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml) | [![npm-publish.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml)
+[trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_jenkins.yaml) | [![trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_jenkins.yaml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_jenkins.yaml)
 
 ## [DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit)
 
@@ -66,6 +68,7 @@ Workflow | Status
 ---------|--------
 [label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml) | [![label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml)
 [move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml) | [![move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml)
+[trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_jenkins.yaml) | [![trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_jenkins.yaml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_jenkins.yaml)
 
 ## [DynamoDS/DynamoSamples](https://github.com/DynamoDS/DynamoSamples)
 
@@ -145,6 +148,7 @@ Workflow | Status
 Workflow | Status
 ---------|--------
 [build.yml](https://github.com/DynamoDS/TuneUp/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/TuneUp/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/TuneUp/actions/workflows/build.yml)
+[trigger_jenkins.yaml](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_jenkins.yaml) | [![trigger_jenkins.yaml](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_jenkins.yaml/badge.svg)](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_jenkins.yaml)
 
 ## [DynamoDS/workflows](https://github.com/DynamoDS/workflows)
 
