@@ -61,7 +61,7 @@ Workflow | Status
 ---------|--------
 [build.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml)
 [npm-publish.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml) | [![npm-publish.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml)
-[trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_jenkins.yaml) | [![trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_jenkins.yaml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_jenkins.yaml)
+[trigger_l10n_jenkins.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_l10n_jenkins.yml) | [![trigger_l10n_jenkins.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_l10n_jenkins.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_l10n_jenkins.yml)
 
 ## [DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit)
 
@@ -69,7 +69,7 @@ Workflow | Status
 ---------|--------
 [label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml) | [![label_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/label_issues.yml)
 [move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml) | [![move_issues.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/move_issues.yml)
-[trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_jenkins.yaml) | [![trigger_jenkins.yaml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_jenkins.yaml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_jenkins.yaml)
+[trigger_l10n_jenkins.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_l10n_jenkins.yml) | [![trigger_l10n_jenkins.yml](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_l10n_jenkins.yml/badge.svg)](https://github.com/DynamoDS/DynamoRevit/actions/workflows/trigger_l10n_jenkins.yml)
 
 ## [DynamoDS/DynamoSamples](https://github.com/DynamoDS/DynamoSamples)
 
