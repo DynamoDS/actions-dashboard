@@ -149,7 +149,7 @@ Workflow | Status
 Workflow | Status
 ---------|--------
 [build.yml](https://github.com/DynamoDS/TuneUp/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/TuneUp/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/TuneUp/actions/workflows/build.yml)
-[trigger_jenkins.yaml](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_jenkins.yaml) | [![trigger_jenkins.yaml](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_jenkins.yaml/badge.svg)](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_jenkins.yaml)
+[trigger_l10n_jenkins.yml](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_l10n_jenkins.yml) | [![trigger_l10n_jenkins.yml](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_l10n_jenkins.yml/badge.svg)](https://github.com/DynamoDS/TuneUp/actions/workflows/trigger_l10n_jenkins.yml)
 
 ## [DynamoDS/workflows](https://github.com/DynamoDS/workflows)
 
