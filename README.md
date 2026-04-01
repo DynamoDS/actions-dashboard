@@ -37,7 +37,6 @@ Workflow | Status
 Workflow | Status
 ---------|--------
 [Issues_workflow.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/Issues_workflow.yml) | [![Issues_workflow.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/Issues_workflow.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/Issues_workflow.yml)
-[PR_merged.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/PR_merged.yml) | [![PR_merged.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/PR_merged.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/PR_merged.yml)
 [auto_cherrypick.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/auto_cherrypick.yml) | [![auto_cherrypick.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/auto_cherrypick.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/auto_cherrypick.yml)
 [auto_update_src_html.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/auto_update_src_html.yml) | [![auto_update_src_html.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/auto_update_src_html.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/auto_update_src_html.yml)
 [build_dynamo_all.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/build_dynamo_all.yml) | [![build_dynamo_all.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/build_dynamo_all.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/build_dynamo_all.yml)
@@ -54,6 +53,7 @@ Workflow | Status
 [pr_description_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_description_check.yml) | [![pr_description_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_description_check.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_description_check.yml)
 [pr_jira_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_jira_check.yml) | [![pr_jira_check.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_jira_check.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/pr_jira_check.yml)
 [trigger_l10n_jenkins.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_l10n_jenkins.yml) | [![trigger_l10n_jenkins.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_l10n_jenkins.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_l10n_jenkins.yml)
+[validate_agent_skills.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/validate_agent_skills.yml) | [![validate_agent_skills.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/validate_agent_skills.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/validate_agent_skills.yml)
 
 ## [DynamoDS/DynamoHome](https://github.com/DynamoDS/DynamoHome)
 
@@ -130,6 +130,13 @@ Workflow | Status
 [ReleaseSampleFiles.yml](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/ReleaseSampleFiles.yml) | [![ReleaseSampleFiles.yml](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/ReleaseSampleFiles.yml/badge.svg)](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/ReleaseSampleFiles.yml)
 [check_file_size.yml](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/check_file_size.yml) | [![check_file_size.yml](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/check_file_size.yml/badge.svg)](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/check_file_size.yml)
 [pr_jira_check.yml](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/pr_jira_check.yml) | [![pr_jira_check.yml](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/pr_jira_check.yml/badge.svg)](https://github.com/DynamoDS/RefineryPrimer/actions/workflows/pr_jira_check.yml)
+
+## [DynamoDS/skills](https://github.com/DynamoDS/skills)
+
+Workflow | Status
+---------|--------
+[build_site.yml](https://github.com/DynamoDS/skills/actions/workflows/build_site.yml) | [![build_site.yml](https://github.com/DynamoDS/skills/actions/workflows/build_site.yml/badge.svg)](https://github.com/DynamoDS/skills/actions/workflows/build_site.yml)
+[validate_skills.yml](https://github.com/DynamoDS/skills/actions/workflows/validate_skills.yml) | [![validate_skills.yml](https://github.com/DynamoDS/skills/actions/workflows/validate_skills.yml/badge.svg)](https://github.com/DynamoDS/skills/actions/workflows/validate_skills.yml)
 
 ## [DynamoDS/SplashScreen](https://github.com/DynamoDS/SplashScreen)
 
