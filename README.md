@@ -55,6 +55,12 @@ Workflow | Status
 [trigger_l10n_jenkins.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_l10n_jenkins.yml) | [![trigger_l10n_jenkins.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_l10n_jenkins.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/trigger_l10n_jenkins.yml)
 [validate_agent_skills.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/validate_agent_skills.yml) | [![validate_agent_skills.yml](https://github.com/DynamoDS/Dynamo/actions/workflows/validate_agent_skills.yml/badge.svg)](https://github.com/DynamoDS/Dynamo/actions/workflows/validate_agent_skills.yml)
 
+## [DynamoDS/dynamo-agent-plugins](https://github.com/DynamoDS/dynamo-agent-plugins)
+
+Workflow | Status
+---------|--------
+[build_site.yml](https://github.com/DynamoDS/dynamo-agent-plugins/actions/workflows/build_site.yml) | [![build_site.yml](https://github.com/DynamoDS/dynamo-agent-plugins/actions/workflows/build_site.yml/badge.svg)](https://github.com/DynamoDS/dynamo-agent-plugins/actions/workflows/build_site.yml)
+
 ## [DynamoDS/DynamoHome](https://github.com/DynamoDS/DynamoHome)
 
 Workflow | Status
@@ -62,6 +68,12 @@ Workflow | Status
 [build.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/build.yml)
 [npm-publish.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml) | [![npm-publish.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/npm-publish.yml)
 [trigger_l10n_jenkins.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_l10n_jenkins.yml) | [![trigger_l10n_jenkins.yml](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_l10n_jenkins.yml/badge.svg)](https://github.com/DynamoDS/DynamoHome/actions/workflows/trigger_l10n_jenkins.yml)
+
+## [DynamoDS/DynamoPrimerNew](https://github.com/DynamoDS/DynamoPrimerNew)
+
+Workflow | Status
+---------|--------
+[validate-host-integration-issue.yml](https://github.com/DynamoDS/DynamoPrimerNew/actions/workflows/validate-host-integration-issue.yml) | [![validate-host-integration-issue.yml](https://github.com/DynamoDS/DynamoPrimerNew/actions/workflows/validate-host-integration-issue.yml/badge.svg)](https://github.com/DynamoDS/DynamoPrimerNew/actions/workflows/validate-host-integration-issue.yml)
 
 ## [DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit)
 
@@ -77,12 +89,26 @@ Workflow | Status
 ---------|--------
 [build.yml](https://github.com/DynamoDS/DynamoSamples/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/DynamoSamples/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/DynamoSamples/actions/workflows/build.yml)
 
+## [DynamoDS/DynamoText](https://github.com/DynamoDS/DynamoText)
+
+Workflow | Status
+---------|--------
+[build.yml](https://github.com/DynamoDS/DynamoText/actions/workflows/build.yml) | [![build.yml](https://github.com/DynamoDS/DynamoText/actions/workflows/build.yml/badge.svg)](https://github.com/DynamoDS/DynamoText/actions/workflows/build.yml)
+[pr_jira_check.yml](https://github.com/DynamoDS/DynamoText/actions/workflows/pr_jira_check.yml) | [![pr_jira_check.yml](https://github.com/DynamoDS/DynamoText/actions/workflows/pr_jira_check.yml/badge.svg)](https://github.com/DynamoDS/DynamoText/actions/workflows/pr_jira_check.yml)
+
 ## [DynamoDS/DynamoWishlist](https://github.com/DynamoDS/DynamoWishlist)
 
 Workflow | Status
 ---------|--------
 [label_issues.yml](https://github.com/DynamoDS/DynamoWishlist/actions/workflows/label_issues.yml) | [![label_issues.yml](https://github.com/DynamoDS/DynamoWishlist/actions/workflows/label_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoWishlist/actions/workflows/label_issues.yml)
 [move_issues.yml](https://github.com/DynamoDS/DynamoWishlist/actions/workflows/move_issues.yml) | [![move_issues.yml](https://github.com/DynamoDS/DynamoWishlist/actions/workflows/move_issues.yml/badge.svg)](https://github.com/DynamoDS/DynamoWishlist/actions/workflows/move_issues.yml)
+
+## [DynamoDS/DynoDashGame](https://github.com/DynamoDS/DynoDashGame)
+
+Workflow | Status
+---------|--------
+[ci.yml](https://github.com/DynamoDS/DynoDashGame/actions/workflows/ci.yml) | [![ci.yml](https://github.com/DynamoDS/DynoDashGame/actions/workflows/ci.yml/badge.svg)](https://github.com/DynamoDS/DynoDashGame/actions/workflows/ci.yml)
+[deploy.yml](https://github.com/DynamoDS/DynoDashGame/actions/workflows/deploy.yml) | [![deploy.yml](https://github.com/DynamoDS/DynoDashGame/actions/workflows/deploy.yml/badge.svg)](https://github.com/DynamoDS/DynoDashGame/actions/workflows/deploy.yml)
 
 ## [DynamoDS/IssuesTypePredicter](https://github.com/DynamoDS/IssuesTypePredicter)
 
